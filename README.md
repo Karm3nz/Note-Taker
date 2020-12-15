@@ -44,7 +44,7 @@ If your README is very long, add a table of contents to make it easy for users t
 2) Check if an internet browswer is installed. If so, go to step 4).
 3) Install an internet browser of your choice. 
 4) Open up internet web browser.
-5) In the address bar, type in : ( link here ) and hit "enter" on the keyboard.
+5) In the address bar, type in : https://karm3nz.github.io/Simple-Notes/ and hit "enter" on the keyboard.
 
 
 ## Usage 
@@ -52,7 +52,7 @@ If your README is very long, add a table of contents to make it easy for users t
 
 Simple Notes allows user to retrieve, write and save personal notes.
 
-To arrive at Simple Notes web page, type in :  ( enter link ) on the address bar on the web browser and hit the "enter" key.
+To arrive at Simple Notes web page, type in : https://karm3nz.github.io/Simple-Notes/ on the address bar on the web browser and hit the "enter" key.
 
 ![Simple Notes Home Screenshot](public/assets/index.png)
 ![Simple Notes, Notes Page Screenshot](public/assets/notes_page.png)
