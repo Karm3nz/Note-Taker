@@ -61,11 +61,15 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 ## Credits 📣
 
-List your collaborators, if any, with links to their GitHub profiles.
+* Pointing public directory that contains static files:
+    https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname
+    https://expressjs.com/en/starter/static-files.html
+* req.param
+    http://expressjs.com/en/5x/api.html#req.param
+*uniqid
+    https://www.npmjs.com/package/uniqid
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-If you followed tutorials, include links to those here as well.
 
 
 

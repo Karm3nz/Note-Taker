@@ -25,31 +25,31 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-const getNotes = () => {
+const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
   });
-};
-const saveNote = (note) => {
+
+const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(note),
-  })
-};
-const deleteNote = (id) => {
+  });
+
+const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
     },
-  })
-};
+  });
+
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -58,8 +58,7 @@ const renderActiveNote = () => {
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.title;
-  } 
-  else {
+  } else {
     noteTitle.value = '';
     noteText.value = '';
   }
@@ -110,8 +109,7 @@ const handleNewNoteView = (e) => {
 const handleRenderSaveBtn = () => {
   if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
-  } 
-  else {
+  } else {
     show(saveNoteBtn);
   }
 };
