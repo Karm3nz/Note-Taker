@@ -24,6 +24,8 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
+Deployed on Github: https://karm3nz.github.io/Simple-Notes/
+Deployed on Heroku: https://simple-notes-ch.herokuapp.com/
 
 ## Table of Contents 📜
 
@@ -59,7 +61,6 @@ To arrive at Simple Notes web page, type in : https://karm3nz.github.io/Simple-N
 
 ## Credits 
 📣
-
 * Pointing public directory that contains static files:
     https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname
     https://expressjs.com/en/starter/static-files.html
@@ -67,7 +68,6 @@ To arrive at Simple Notes web page, type in : https://karm3nz.github.io/Simple-N
     http://expressjs.com/en/5x/api.html#req.param
 *uniqid
     https://www.npmjs.com/package/uniqid
-
 
 
 ## License 
