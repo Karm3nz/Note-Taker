@@ -17,7 +17,7 @@ module.exports = (app) => {
     //---------------------------------------------------------------------------
     app.post('/api/notes', (req, res) => {
         let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
-        const newNote = req.body;
+        let newNote = req.body;
         newNote.id = uniqid();
         savedNotes.push(newNote);
         
